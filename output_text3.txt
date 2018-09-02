@@ -1,0 +1,126 @@
+Verbose Mode Activated
+
+
+-----------INPUT TEXT-------------
+
+Bansoori is an Indian classical instrument. Akhil plays Bansoori and Guitar. 
+Puliyogare is a South Indian dish made of rice and tamarind. 
+Priya writes poems. 
+Osmosis is the movement of a solvent across a semipermeable membrane toward a higher concentration of solute. In biological systems, the solvent is typically water, but osmosis can occur in other liquids, supercritical liquids, and even gases.
+When a cell is submerged in water, the water molecules pass through the cell membrane from an area of low solute concentration to high solute concentration. For example, if the cell is submerged in saltwater, water molecules move out of the cell. If a cell is submerged in freshwater, water molecules move into the cell.
+
+Raja-Yoga is divided into eight steps, the first is Yama -- non - killing, truthfulness, non - stealing, continence, and non - receiving of any gifts.
+Next is Niyama -- cleanliness, contentment, austerity, study, and self - surrender to God. 
+
+Jawaharlal Nehru was the second Prime minister of India.
+ 
+
+
+-----------INPUT END---------------
+
+
+ --------------------
+Bansoori is an Indian classical instrument. 
+
+TAGS: [('Bansoori', 'NNP'), ('is', 'VBZ'), ('an', 'DT'), ('Indian', 'JJ'), ('classical', 'JJ'), ('instrument', 'NN')] 
+
+{'NNP': 0, 'VBZ': 1, 'DT': 2, 'JJ': 3, 'NN': 5}
+
+ Question: What is Bansoori?
+
+ --------------------
+Akhil plays Bansoori and Guitar. 
+
+TAGS: [('Akhil', 'NNP'), ('plays', 'VBZ'), ('Bansoori', 'NNP'), ('and', 'CC'), ('Guitar', 'NNP')] 
+
+{'NNP': 0, 'VBZ': 1, 'CC': 3}
+
+ Question: What does Akhil play?
+
+ --------------------
+Puliyogare is a South Indian dish made of rice and tamarind. 
+
+TAGS: [('Puliyogare', 'NNP'), ('is', 'VBZ'), ('a', 'DT'), ('South', 'JJ'), ('Indian', 'JJ'), ('dish', 'NN'), ('made', 'VBN'), ('of', 'IN'), ('rice', 'NN'), ('and', 'CC'), ('tamarind', 'NN')] 
+
+{'NNP': 0, 'VBZ': 1, 'DT': 2, 'JJ': 3, 'NN': 5, 'VBN': 6, 'IN': 7, 'CC': 9}
+
+ Question: What is Puliyogare?
+
+ --------------------
+Priya writes poems. 
+
+TAGS: [('Priya', 'NNP'), ('writes', 'VBZ'), ('poems', 'NNS')] 
+
+{'NNP': 0, 'VBZ': 1, 'NNS': 2}
+
+ Question: What does Priya write?
+
+ --------------------
+Osmosis is the movement of a solvent across a semipermeable membrane toward a higher concentration of solute. 
+
+TAGS: [('Osmosis', 'NN'), ('is', 'VBZ'), ('the', 'DT'), ('movement', 'NN'), ('of', 'IN'), ('a', 'DT'), ('solvent', 'JJ'), ('across', 'IN'), ('a', 'DT'), ('semipermeable', 'JJ'), ('membrane', 'NN'), ('toward', 'IN'), ('a', 'DT'), ('higher', 'JJR'), ('concentration', 'NN'), ('of', 'IN'), ('solute', 'NN')] 
+
+{'NN': 0, 'VBZ': 1, 'DT': 2, 'IN': 4, 'JJ': 6, 'JJR': 13}
+
+ Question: What Osmosis is?
+
+ --------------------
+In biological systems, the solvent is typically water, but osmosis can occur in other liquids, supercritical liquids, and even gases. 
+
+TAGS: [('In', 'IN'), ('biological', 'JJ'), ('systems', 'NNS'), ('the', 'DT'), ('solvent', 'NN'), ('is', 'VBZ'), ('typically', 'RB'), ('water', 'NN'), ('but', 'CC'), ('osmosis', 'NN'), ('can', 'MD'), ('occur', 'VB'), ('in', 'IN'), ('other', 'JJ'), ('liquids', 'NNS'), ('supercritical', 'JJ'), ('liquids', 'NNS'), ('and', 'CC'), ('even', 'RB'), ('gases', 'NNS')] 
+
+{'IN': 0, 'JJ': 1, 'NNS': 2, 'DT': 3, 'NN': 4, 'VBZ': 5, 'RB': 6, 'CC': 8, 'MD': 10, 'VB': 11}
+
+ Question: What solvent is?
+
+ --------------------
+When a cell is submerged in water, the water molecules pass through the cell membrane from an area of low solute concentration to high solute concentration. 
+
+TAGS: [('When', 'WRB'), ('a', 'DT'), ('cell', 'NN'), ('is', 'VBZ'), ('submerged', 'VBN'), ('in', 'IN'), ('water', 'NN'), ('the', 'DT'), ('water', 'NN'), ('molecules', 'NNS'), ('pass', 'VBP'), ('through', 'IN'), ('the', 'DT'), ('cell', 'NN'), ('membrane', 'NN'), ('from', 'IN'), ('an', 'DT'), ('area', 'NN'), ('of', 'IN'), ('low', 'JJ'), ('solute', 'NN'), ('concentration', 'NN'), ('to', 'TO'), ('high', 'JJ'), ('solute', 'NN'), ('concentration', 'NN')] 
+
+{'WRB': 0, 'DT': 1, 'NN': 2, 'VBZ': 3, 'VBN': 4, 'IN': 5, 'NNS': 9, 'VBP': 10, 'JJ': 19, 'TO': 22}
+
+ Question: What cell is?
+
+ --------------------
+For example, if the cell is submerged in saltwater, water molecules move out of the cell. 
+
+TAGS: [('For', 'IN'), ('example', 'NN'), ('if', 'IN'), ('the', 'DT'), ('cell', 'NN'), ('is', 'VBZ'), ('submerged', 'VBN'), ('in', 'IN'), ('saltwater', 'NN'), ('water', 'NN'), ('molecules', 'NNS'), ('move', 'VBP'), ('out', 'IN'), ('of', 'IN'), ('the', 'DT'), ('cell', 'NN')] 
+
+{'IN': 0, 'NN': 1, 'DT': 3, 'VBZ': 5, 'VBN': 6, 'NNS': 10, 'VBP': 11}
+
+ Question: What example is?
+
+ --------------------
+If a cell is submerged in freshwater, water molecules move into the cell. 
+
+TAGS: [('If', 'IN'), ('a', 'DT'), ('cell', 'NN'), ('is', 'VBZ'), ('submerged', 'VBN'), ('in', 'IN'), ('freshwater', 'NN'), ('water', 'NN'), ('molecules', 'NNS'), ('move', 'VBP'), ('into', 'IN'), ('the', 'DT'), ('cell', 'NN')] 
+
+{'IN': 0, 'DT': 1, 'NN': 2, 'VBZ': 3, 'VBN': 4, 'NNS': 8, 'VBP': 9}
+
+ Question: What cell is?
+
+ --------------------
+Raja-Yoga is divided into eight steps, the first is Yama -- non - killing, truthfulness, non - stealing, continence, and non - receiving of any gifts. 
+
+TAGS: [('Raja-Yoga', 'NNP'), ('is', 'VBZ'), ('divided', 'VBN'), ('into', 'IN'), ('eight', 'CD'), ('steps', 'NNS'), ('the', 'DT'), ('first', 'JJ'), ('is', 'VBZ'), ('Yama', 'NNP'), ('non', 'JJ'), ('killing', 'NN'), ('truthfulness', 'NN'), ('non', 'SYM'), ('stealing', 'NN'), ('continence', 'NN'), ('and', 'CC'), ('non', 'SYM'), ('receiving', 'NN'), ('of', 'IN'), ('any', 'DT'), ('gifts', 'NNS')] 
+
+{'NNP': 0, 'VBZ': 1, 'VBN': 2, 'IN': 3, 'CD': 4, 'NNS': 5, 'DT': 6, 'JJ': 7, 'NN': 11, 'SYM': 13, 'CC': 16}
+
+ Question: What is Raja-Yoga?
+
+ --------------------
+Next is Niyama -- cleanliness, contentment, austerity, study, and self - surrender to God. 
+
+TAGS: [('Next', 'JJ'), ('is', 'VBZ'), ('Niyama', 'NNP'), ('cleanliness', 'NN'), ('contentment', 'NN'), ('austerity', 'NN'), ('study', 'NN'), ('and', 'CC'), ('self', 'PRP'), ('surrender', 'NN'), ('to', 'TO'), ('God', 'NNP')] 
+
+{'JJ': 0, 'VBZ': 1, 'NNP': 2, 'NN': 3, 'CC': 7, 'PRP': 8, 'TO': 10}
+
+ Question: What is Niyama?
+
+ --------------------
+Jawaharlal Nehru was the second Prime minister of India. 
+
+TAGS: [('Jawaharlal', 'NNP'), ('Nehru', 'NNP'), ('was', 'VBD'), ('the', 'DT'), ('second', 'JJ'), ('Prime', 'NNP'), ('minister', 'NN'), ('of', 'IN'), ('India', 'NNP')] 
+
+{'NNP': 0, 'VBD': 2, 'DT': 3, 'JJ': 4, 'NN': 6, 'IN': 7}

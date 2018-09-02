@@ -115,9 +115,12 @@ def genQuestion(line):
 
     elif all(key in bucket for key in l10): #'NNP', 'VBZ' in sentence.
         question = 'What' + ' does ' + line.words[bucket['NNP']] + ' ' + line.words[bucket['VBZ']].singularize() + '?'
-
+		
     elif all(key in bucket for key in l13): #'NN', 'VBZ' in sentence.
-        question = 'What' + ' ' + line.words[bucket['VBZ']] + ' ' + line.words[bucket['NN']] + '?'
+        question = 'What' + ' ' + line.words[bucket['NN']] + ' ' + line.words[bucket['VBZ']] + '?'
+	
+    #elif all(key in bucket for key in l12):
+	#	question = 'What' + ' ' + line.words[bucket['VBZ']] + ' ' + line.words[bucket['NN']] + '?'
 
     # When the tags are generated 's is split to ' and s. To overcome this issue.
     if 'VBZ' in bucket and line.words[bucket['VBZ']] == "’":
@@ -151,6 +154,7 @@ def main():
 
     # Send the content of text file as string to function parse()
     parse(textinput)
+	
 
 if __name__ == "__main__":
     main()
